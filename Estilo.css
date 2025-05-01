@@ -91,6 +91,7 @@ input {
     height: 250px;
     background-color: rgb(100, 149, 237);
     margin-top: 4%;
+    position: relative;
 }
 
 
@@ -99,7 +100,7 @@ input {
     justify-content: center;
     align-items: center;
     gap: 140px;
-    margin-top: 60px;
+    margin-top: -10px;
 }
 
 
@@ -134,17 +135,90 @@ input {
     height: 20px;
 }
 
+.rectangulo {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(100, 149, 237);
+    margin-top: 4%;
+    position: relative;
+}
+
+.lineas-container {
+    position: absolute;
+    top: 30px;
+    right: 30%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.linea-negra {
+    width: 120%;
+    height: 40px;
+    background-color: black;
+}
+
+.linea-blanca1,
+.linea-blanca2 {
+    width: 120%;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.linea-blanca3 {
+    width: 80%;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
 
 
 .cuadro-inferior {
     width: 175px;
     height: 175px;
     background-color: gray;
+    position: relative;
 }
 
 
 .izquierda {
     background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.Lineas-Inferiores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+}
+
+.Linea-Inferior1 {
+    width: 110px;
+    height: 30px;
+    background-color: rgb(228, 34, 34);
+}
+
+.Linea-Inferior2,
+.Linea-Inferior3 {
+    width: 110px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Linea-Inferior4 {
+    width: 50px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 60px;
 }
 
 
@@ -155,4 +229,34 @@ input {
 
 .derecha {
     background-color: lightblue;
+}
+
+.lineas-bajo-cuadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom: -95px;
+    width: 100%;
+}
+
+.linea-bajo1 {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(87, 87, 87);
+}
+
+.linea-bajo2 {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(146, 146, 146);
+}
+
+.linea-bajo3 {
+    width: 70%;
+    height: 10px;
+    background-color: rgb(146, 146, 146);
+    margin-right: 51px;
 }
