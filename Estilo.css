@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.contenedor-cuadrados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+
+.fila-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuadrado {
+    width: 500px;
+    height: 90px;
+    background-color: rgb(235, 105, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuadrado2 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(8, 2, 2);
+}
+
+
+input {
+    width: 80%;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.barras {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 40px;
+}
+
+
+.barra {
+    width: 200px;
+    height: 20px;
+    background-color: gray;
+}
+
+
+.barra2 {
+    width: 200px;
+    height: 20px;
+    background-color: gray;
+}
+
+
+.barra3 {
+    width: 200px;
+    height: 20px;
+    background-color: gray;
+}
+
+
+.barra4 {
+    width: 200px;
+    height: 20px;
+    background-color: gray;
+}
+
+
+.rectangulo {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(100, 149, 237);
+    margin-top: 4%;
+}
+
+
+.contenedor-inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin-top: 60px;
+}
+
+
+.cuadro-rectangulo {
+    width: 175px;
+    height: 175px;
+    background-color: lightcyan;
+    margin-left: calc(50% - 400px);
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.mini-cuadrado {
+    background-color: gray;
+}
+
+
+.chico {
+    width: 20px;
+    height: 20px;
+}
+
+
+.largo {
+    width: 120px;
+    height: 20px;
+}
+
+
+
+.cuadro-inferior {
+    width: 175px;
+    height: 175px;
+    background-color: gray;
+}
+
+
+.izquierda {
+    background-color: lightcoral;
+}
+
+
+.medio {
+    background-color: lightgreen;
+}
+
+
+.derecha {
+    background-color: lightblue;
+}
